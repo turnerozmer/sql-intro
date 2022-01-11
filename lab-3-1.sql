@@ -14,4 +14,4 @@
 -- | 2020 | 30       |
 -- +------+----------+
 
-
+SELECT year, count(DISTINCT name) FROM teams GROUP BY year
